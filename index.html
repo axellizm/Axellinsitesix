@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AXELLIZM</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@1,600&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+</head>
+
+<body>
+
+  <header class="top-bar glass">
+    <span class="brand">AXELLIZM</span>
+  </header>
+
+  <main class="hero">
+    <h1 class="hero-title">AXELLIZM</h1>
+    <p class="hero-sub">Neon • Glass • Interactive</p>
+
+    <div class="hero-actions">
+      <button class="btn-glass" id="startSnake">Yılan Oyunu</button>
+      <button class="btn-glass accent" id="magicHeart">Magic Heart</button>
+    </div>
+  </main>
+
+  <canvas id="fx-canvas"></canvas>
+
+  <!-- JS -->
+  <script src="js/animations.js"></script>
+  <script src="js/snake.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
