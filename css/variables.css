@@ -1,0 +1,13 @@
+:root {
+  --pink: #ff2d55;
+  --pink-soft: rgba(255,45,85,0.35);
+  --black: #050005;
+
+  --glass-bg: linear-gradient(
+    135deg,
+    rgba(255,255,255,0.15),
+    rgba(255,255,255,0.05)
+  );
+
+  --glass-border: rgba(255,255,255,0.25);
+}
